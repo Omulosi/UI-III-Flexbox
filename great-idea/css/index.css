@@ -66,24 +66,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container {
-}
-
 .content {
-  display: flex;
-  flex-direction: column;
-  padding: 2em 3em;
+  margin: 0 auto;
+  max-width: 79.2%;
+  padding: 1.5em 4.6em;
 }
 
 /* Header */
 header {
   display: flex;
   align-items: center;
+  font-size: 0.9em;
 }
 
 nav {
   flex: 1 1 0;
   display: flex;
+  padding-right: 2.1em;
 }
 
 nav > a {
@@ -98,8 +97,6 @@ nav a:hover {
 
 .logo {
   flex-shrink: 1;
-  flex-basis: 20%;
-  display: flex;
 }
 
 .logo img {
@@ -108,70 +105,75 @@ nav a:hover {
 
 /* Hero section */
 .hero {
-  width: 100%;
-  margin-top: 3em;
-  vertical-align: middle;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4em;
   border-bottom: 1px solid black;
-  padding-bottom: 3.5em;
-  padding-top: 3em;
+  padding-bottom: 5em;
 }
 
-.hero > div {
-  width: 50%;
-  ;
-}
 .hero-text {
-  vertical-align: top;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.7em;
   padding-top: 2em;
 }
 
-.hero-text p {
-  font-size: 5.5em;
+.hero-image {
+  flex: 1 1 0;
+  text-align: right;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+}
+
+.text p {
+  font-family: 'Bangers', cursive;
+  font-size: 4em;
+  letter-spacing: 9px;
   font-weight: bold;
   text-transform: uppercase;
-  text-wrap: wrap;
 }
 
 .btn {
   border: 1px solid black;
   background: none;
-  padding: 10px 30px;
-  letter-spacing: 5px;
-  margin-top: 16px;
+  padding: 0.37em 2.4em;
+  font-size: 1.1em;
+  margin-top: 4em;
+  text-decoration: none;
+  color: #000;
 }
 
 /* Introduction */
 .intro {
-  margin-top: 2em;
-  padding-bottom: 2em;
-}
-
-.intro > div {
-  width: 50%;
-  ;
-}
-
-.middle-img {
-  width: 100%;
+  margin-top: 2.3em;
+  padding-bottom: 2.8em;
+  display: flex;
 }
 
 /* Informational */
 .info {
-  margin-top: 2em;
-  padding-bottom: 2.5em;
+  margin-top: 2.3em;
+  padding-bottom: 4.7em;
   border-bottom: 1px solid black;
-}
-
-.info > div {
-  ;
-  width: 33.33%;
+  display: flex;
 }
 
 /* Footer section */
 footer {
-  margin-top: 2em;
+  margin-top: 2.4em;
   padding-bottom: 2em;
+  flex: 1 1 0;
 }
 
 footer address > p {
@@ -180,7 +182,8 @@ footer address > p {
 
 footer > p {
   text-align: center;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-size: 0.9em;
 
 }
