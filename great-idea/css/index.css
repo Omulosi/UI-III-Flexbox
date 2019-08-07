@@ -187,3 +187,82 @@ footer > p {
   font-size: 0.9em;
 
 }
+
+
+/* services page */
+
+.heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero-heading {
+  font-size: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.item-heading {
+  padding-top: 0.7em;
+}
+
+
+.hero-services {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  padding-bottom: 2.5em;
+}
+
+.hero-services-text {
+}
+
+.services-header-img {
+  margin-top: 1.5em;
+}
+
+.main-content-services {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  padding-bottom: 2.5em;
+}
+
+.main-content-services-item {
+  display: flex;
+  margin-top: 2.3em;
+}
+
+.main-content-services-item  > div:first-child {
+  margin-right: 1.2em;
+}
+
+.main-content-services-item  > div:last-child {
+  margin-left: 1.2em;
+}
+
+.item {
+  padding: 1.3em;
+  border: 1px solid black;
+  background: #eee;
+  flex: 1 1 0;
+
+}
+
+.item-btn {
+  padding: 0.8em 3em;
+  font-size: 0.8em;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 4em;
+  background-color: #fff;
+}
+
+.about-services-content ul {
+  list-style: square inside;
+  margin-top: 3em;
+}
+
+.about-services-content li ~ li {
+  margin-top: 1em;
+}
